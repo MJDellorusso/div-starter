@@ -141,6 +141,8 @@ hr {
 
 
 
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -175,7 +177,7 @@ hr {
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:active, 
 .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
