@@ -103,16 +103,65 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 0em 2em;
   font-size: 1.25em;
   height: 100%;
+  display: flex;
+  justify-content: center;
+ 
+
 }
+
+header {
+    
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+header, footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+main {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px #f16059 solid;
+}
+
+header, main, footer {
+
+    color: red;
+    line-height: 1.5em;
+    font-size: 1.6em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    
+    
+}
+
+footer {
+
+    border-top: 2px #f16059 solid;
+    
+}
+
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 300;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
+  max-width: 1200px;
+  
   
 }
 
@@ -135,9 +184,6 @@ body {
     padding: 0 10px;
 }
 
-hr {
-    background-color: #f16059;
-}
 
 
 
